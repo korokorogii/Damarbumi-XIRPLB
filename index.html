@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Damar's Mini Profile</title>
+        <link rel="stylesheet" href="./style.css">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Karla&display=swap');
+
+
+body{
+    line-height: 1;
+    min-height: 100vh;
+    min-width: 320px;
+    background-color: #000000;
+}
+.card{
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 15px;   
+    flex-direction: column;
+    background-color: #202020;
+    transition: all 0.3s ease;
+    margin-left: auto;
+    box-shadow: 0 0 20px rgba(23, 23, 23, 0.327);
+    margin-right: auto;
+}
+.card-image img{
+    width: 100%;
+    height: 240px;
+    border-top-right-radius: 15px;    
+    border-top-left-radius: 15px;
+    object-fit: cover;
+}
+.profile-image img{
+    width: 20%;
+    position: relative;
+    margin-top: -10%;
+    display: block;
+    margin-left: 5%;
+    border-radius: 100%;
+    border: 5px solid #202020;
+    transition: all 0.3s ease;
+}
+.card-content{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: white;   
+    margin-left: 7%;
+    
+}
+      </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./asset/image/banner.png" alt="">
+                </div>
+                <div class="profile-image">
+                    <img src="./asset/image/pfp.jpeg" alt="">
+                </div>
+                <div class="card-content">
+                    <h2 class="maintitle">Eruma Hoshinova</h2>
+                    <h3 class="maintitle">@erumacchi</h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
